@@ -1,0 +1,9 @@
+<launch>
+<param name="use_gui" value="True" />
+<param name="robot_description" textfile="pantilt.urdf" />
+<node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher"> 
+ </node>
+ <node pkg="robot_state_publisher" type="robot_state_publisher" name="rob_st_pub" />
+ <node pkg="rviz" type="rviz" name="rviz" />
+
+</launch>

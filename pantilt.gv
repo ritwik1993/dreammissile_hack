@@ -1,0 +1,11 @@
+digraph G {
+node [shape=box];
+"base" [label="base"];
+"pan" [label="pan"];
+"tilt" [label="tilt"];
+node [shape=ellipse, color=blue, fontcolor=blue];
+"base" -> "panservo" [label="xyz: 0 0 0.03 \nrpy: 0 -0 0"]
+"panservo" -> "pan"
+"pan" -> "tiltservo" [label="xyz: 0.03 0 0.06 \nrpy: 0 -0 1.57"]
+"tiltservo" -> "tilt"
+}

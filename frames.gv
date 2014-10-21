@@ -1,0 +1,4 @@
+digraph G {
+"base" -> "pan"[label="Broadcaster: /rob_st_pub\nAverage rate: 10.204 Hz\nMost recent transform: 1410199432.850 \nBuffer length: 4.900 sec\n"];
+"pan" -> "tilt"[label="Broadcaster: /rob_st_pub\nAverage rate: 10.204 Hz\nMost recent transform: 1410199432.850 \nBuffer length: 4.900 sec\n"];
+}
